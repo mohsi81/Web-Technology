@@ -12,12 +12,15 @@ p {
     margin-left: 400px;
     
 }
+.item1{
+    margin-left: 0px;
+}
 
 
 h2,
 p,
 li {
-    border: solid 2px orange;
+    border: solid 2px rgb(56, 21, 153);
 
 }
 
@@ -50,7 +53,6 @@ p::first-letter {
 img {
     border: 2px solid black;
     width: 200px;
-
 }
 ul> li{
     width: 100px;
