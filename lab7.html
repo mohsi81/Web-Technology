@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 07</title>
+    <style>
+        div {
+            text-align: center;
+            width: 250px;
+            border: 2px solid blue;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <button onclick="task1()">Task 1: Enter Name & Registration ID</button>
+
+        <br><br>
+
+        <button onclick="task2()">Task 2: Arithmetic and Comparison</button>
+    </div>
+    <script>
+
+        function task1() {
+            var name = prompt("Enter your Name:");
+            var regID = prompt("Enter your Registration ID:");
+            alert("Name: " + name + "\nRegistration ID: " + regID);
+        }
+
+
+        function task2() {
+            var num1 = prompt("Enter first number:");
+            var num2 = prompt("Enter second number:");
+
+            // Convert to numbers
+            num1 = Number(num1);
+            num2 = Number(num2);
+
+            var sum = num1 + num2;
+            var diff = num1 - num2;
+            var prod = num1 * num2;
+            var quot = num1 / num2;
+            var comp = num1 > num2;
+
+            alert(
+                "Sum: " + sum +
+                "\nDifference: " + diff +
+                "\nProduct: " + prod +
+                "\nQuotient: " + quot +
+                "\nIs num1 > num2? : " + comp
+            );
+        }
+    </script>
+
+</body>
+
+</html>
