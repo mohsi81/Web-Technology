@@ -12,7 +12,7 @@ document.getElementsByClassName("change_shape")[0].addEventListener("mouseover",
 });
 
 document.getElementsByClassName("change_shape")[0].addEventListener("mouseout",function(){
-    this.style.width="200px";
+    this.style.width="100%";
     this.style.height="50px";
     this.style.background="rgb(155, 130, 247)"
 });
@@ -32,3 +32,4 @@ document.getElementsByClassName("change_Text")[0].addEventListener("click",funct
         clicked= !clicked;
 
 });
+
