@@ -9,13 +9,16 @@ document.getElementsByClassName("change_shape")[0].addEventListener("mouseover",
     this.style.height="100px";
     this.style.width="100px";
     this.style.background="black";
+    this.textContent="Wow!";
 });
 
 document.getElementsByClassName("change_shape")[0].addEventListener("mouseout",function(){
     this.style.width="100%";
     this.style.height="50px";
     this.style.background="rgb(155, 130, 247)"
+    this.textContent="Hover to make square and change color";
 });
+
 
 
 
@@ -32,4 +35,5 @@ document.getElementsByClassName("change_Text")[0].addEventListener("click",funct
         clicked= !clicked;
 
 });
+
 
