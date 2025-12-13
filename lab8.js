@@ -6,14 +6,17 @@ document.getElementsByClassName("change_color")[0].addEventListener("click",func
 });
 
 document.getElementsByClassName("change_shape")[0].addEventListener("mouseover",function(){
-    this.style.height="200px";
-    this.style.background="orange";
+    this.style.height="100px";
+    this.style.width="100px";
+    this.style.background="black";
 });
 
 document.getElementsByClassName("change_shape")[0].addEventListener("mouseout",function(){
+    this.style.width="200px";
     this.style.height="50px";
     this.style.background="rgb(155, 130, 247)"
 });
+
 
 
 
@@ -27,4 +30,5 @@ document.getElementsByClassName("change_Text")[0].addEventListener("click",funct
         this.textContent = "Click To Change Text";
     }
         clicked= !clicked;
+
 });
