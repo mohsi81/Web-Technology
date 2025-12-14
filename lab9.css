@@ -1,0 +1,41 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 40px;
+            transition: background-color 0.5s, color 0.5s;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        #assistantBox {
+            border: 2px solid #333;
+            padding: 20px;
+            width: 300px;
+            margin: auto;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        #output {
+            margin-top: 20px;
+            font-size: 18px;
+            min-height: 30px;
+        }
+
+        #box {
+            width: 80px;
+            height: 80px;
+            background-color: steelblue;
+            margin: 20px auto;
+            transition: transform 0.5s;
+        }
+
+        select, button {
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virtual Assistant Command Center</title>
+<link rel="stylesheet" href="./lab9.css">
+</head>
+
+<body>
+
+    <h1>Virtual Assistant Command Center</h1>
+
+    <div id="assistantBox">
+        <select id="commandSelect">
+            <option value="">-- Select Command --</option>
+            <option value="greet">Greet User</option>
+            <option value="theme">Change Theme</option>
+            <option value="animate">Start Animation</option>
+            <option value="time">Show Time</option>
+            <option value="reset">Reset Page</option>
+        </select>
+
+        <br><br>
+        <button onclick="handleCommand()">Execute Command</button>
+
+        <div id="output"></div>
+        <div id="box"></div>
+    </div>
+
+    <script src="./lab9.js">
+
+    </script>
+
+</body>
+</html>
